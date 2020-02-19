@@ -16,8 +16,9 @@ To access web interfaces, you must edit the security groups associated with mast
 | YARN ResourceManager | http://master\-public\-dns\-name:8088/ | 
 | YARN NodeManager | http://coretask\-public\-dns\-name:8042/ | 
 | Hadoop HDFS NameNode | https://master\-public\-dns\-name:50470/ | 
-| Hadoop HDFS DataNode | https://coretask\-public\-dns\-name:50475/ | 
+| Hadoop HDFS DataNode | https://coretask\-public\-dns\-name:50475/ |
 | Spark HistoryServer | http://master\-public\-dns\-name:18080/ | 
+| Livy | https://master\-public\-dns\-name:8998/ |
 | Zeppelin | http://master\-public\-dns\-name:8890/ | 
 | Hue | http://master\-public\-dns\-name:8888/ | 
 | Ganglia | http://master\-public\-dns\-name/ganglia/ | 
